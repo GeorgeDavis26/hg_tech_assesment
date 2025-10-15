@@ -4,8 +4,8 @@
 # and https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/
 
 
-# General purpose python base image (will pull most recent verson of py)
-FROM python:3
+# General purpose python base image
+FROM python:3.13
 # Location of the working directory
 WORKDIR /usr/local/app
 # Bring in application dependencies
